@@ -1,4 +1,4 @@
-
+# Credit Scoring Decision Report
 ## How the Score Maps to a Decision
 
 Every applicant receives a default probability score between 0 and 1 (0 = certain to repay, 1 = certain to default). This score is compared against a decision threshold of 0.46:
