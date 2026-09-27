@@ -17,7 +17,7 @@ XGBoost's results were also not reproducible across runs/environments despite fi
 
 Top risk-increasing factors: high credit_amount, long duration_months, high installment_rate_pct, negative checking account balance. Interestingly, having no checking account at all reduces predicted risk — a known quirk of this dataset (no-account applicants are often a different demographic, not inherently riskier).
 
-Individual example: applicant with 11,816 DM requested over 45 months, negative checking balance, and no prior credit history scored 0.97 default probability — correctly declined.
+Individual example: applicant with 11,816 DM requested over 45 months, negative checking balance, and an unproven credit history (no credits taken, or none recorded at this bank) scored 0.97 default probability — correctly declined (actual outcome was indeed "bad").
 
 ## Fairness Note (Limitation)
 
